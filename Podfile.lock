@@ -1,0 +1,43 @@
+PODS:
+  - DeepDiff (1.1.2)
+  - Differ (1.0.3)
+  - Dwifft (0.7)
+  - IGListKit (3.2.0):
+    - IGListKit/Default (= 3.2.0)
+  - IGListKit/Default (3.2.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.2.0)
+
+DEPENDENCIES:
+  - DeepDiff
+  - Differ (from `https://github.com/tonyarnold/Differ.git`, branch `master`)
+  - Dwifft (from `https://github.com/jflinter/Dwifft.git`, branch `master`)
+  - IGListKit (from `/Users/rnystrom/fbsource/fbobjc/VendorLib/IGListKit/src`)
+
+EXTERNAL SOURCES:
+  Differ:
+    :branch: master
+    :git: https://github.com/tonyarnold/Differ.git
+  Dwifft:
+    :branch: master
+    :git: https://github.com/jflinter/Dwifft.git
+  IGListKit:
+    :path: /Users/rnystrom/fbsource/fbobjc/VendorLib/IGListKit/src
+
+CHECKOUT OPTIONS:
+  Differ:
+    :commit: c1ed519d8aa74d4cffe356a3584bead566f7930f
+    :git: https://github.com/tonyarnold/Differ.git
+  Dwifft:
+    :commit: 6e09d221d6589c6f620af810727cfb6a2657d911
+    :git: https://github.com/jflinter/Dwifft.git
+
+SPEC CHECKSUMS:
+  DeepDiff: 35c661301baeb2db083ea1b9af183daab6af1c05
+  Differ: f74be9f2556614f5c8b3d13339ee4fccab3a1c46
+  Dwifft: 4fe7ca78e15fedc66d0dc8b24880e39afec0714c
+  IGListKit: 51c65b05adb0e37fecd669ade0c7dec113dce053
+
+PODFILE CHECKSUM: 351c23347a459faa9c89b5cbbabf2629cf9212bd
+
+COCOAPODS: 1.4.0
